@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 1.0', '>= 1.0.0'
   spec.add_development_dependency 'pry', '~> 0.12.2'
 
-  spec.add_runtime_dependency 'redis', '~> 4.0', '>= 4.0.1'
+  spec.add_runtime_dependency 'redis', '~> 5.0'
   spec.add_runtime_dependency 'redis-namespace', '~> 1.6', '>= 1.6.0'
   spec.add_dependency 'httparty', '~> 0.16', '>= 0.16.2'
   spec.add_runtime_dependency 'jwt', '~> 2.1', '>= 2.1.0'
